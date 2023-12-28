@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subodh Kasaudhan</title>
+    <link rel="icon" href="./assets/images/Mahadev.jpg">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' https://apis.google.com">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <span class="h3 fw-bold d-block d-lg-none">Subodh Kasaudhan</span>
+                <img src="./assets/images/sub.jpg" class="d-none d-lg-block rounded-circle" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#patentawards">Patent & Award</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#blogs">Blogs</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- //NAVBAR -->
+
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
+
+        <!-- HOME -->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">SOFTWARE ENGINEER</span></h1>
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">As a Final-year
+                            student from IIT Kanpur, I am seeking a dynamic and progressive work environment that will challenge my
+                            skills and allow me to thrive. Ideally, this environment would foster both personal and
+                            professional growth, providing opportunities for learning and development. Ultimately, I
+                            hope to contribute my talents to the organization and make a positive impact on its success.
+                        </p>
+                        <div data-aos="fade-up" data-aos-delay="600" class="text-">
+                            <a href="#work" class="btn btn-brand me-3 mb-2">Explore My Work</a>
+                            <a href="https://drive.google.com/drive/folders/14hLeC5JskBvW9ICeJw6s9Ng7OKnooMLH?usp=sharing"
+                                class="btn btn-brand me-3 mb-2" target="_blank">See Resume</a>
+                            <div class="d-block d-md-inline">
+                                <a href="mailto:kasaudhan.subodh@gmail.com" class="link-custom">Email:
+                                    kasaudhan.subodh@gmail.com</a>&emsp;
+                                <a href="tel: +919919538428" class="link-custom">Call: (+91) 991-953-8428</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //HOME -->
+
+        <!-- WORK -->
+        <section id="work" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">WORK</h6>
+                        <h1>My Recent Projects</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/IPW.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Image Processing Website</h4>
+                                <p>Say goodbye to bulky editing apps which take up your phone's space. Meet the Image Processing site—a compact powerhouse. Packed with multiple functionalities, it
+                                    can perform simple to complex adjustments and you can even do alpha-blending of two images and directly save to your system. 
+                                    It's like having a photo wizard in your browser, making image edits a breeze.🤩
+                                </p>
+                                <a href="https://subodh-kasaudhan.github.io/simple-image-processing-site/" class="link-custom" target="_blank">View
+                                    Live Site</a>&emsp;
+                                <a href="https://github.com/subodh-kasaudhan/simple-image-processing-site"
+                                    class="link-custom" target="_blank">View Code (GitHub)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/AIG.png" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <h4>AI Image Generator</h4>
+                                        <p>Imagine this: You wake up from a nice happy dream but those visuals just slip away! Frustrating, huh?
+                                            But wait! Picture this: an AI wizard that takes your words, your description of that dream world, and poof! turns it into real, vivid and visually stunning images. Yep, like a dream translator!
+                                            And here's the coolest part: You get to share your dreamscapes with this awesome community. So give your imagination a Take Off to cosmos!!!🚀✨
+                                            <!-- Ever woke up from a dream and barely recall the visuals. Here is an AI system that can help you by create realistic images and art from a description in natural language.
+                                            You can even share your creation with everyone in the community.  -->
+                                        </p>
+                                        <a href="hhttps://subodh-ai-image-generator.netlify.app/" class="link-custom" target="_blank">View
+                                            Live Site</a>&emsp;
+                                        <a href="https://github.com/subodh-kasaudhan/AI-Image-Generator"
+                                            class="link-custom" target="_blank">View Code (GitHub)</a>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/CSG.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Comic Page Generator</h4>
+                                <p>Ever wanted to create your own comic book but not good at drawing images? Make your own 10-strip comic pages from custom images in minutes.
+                                    Let your characters Speak your Story by caption features integrated with each image strip. It's like a comic book factory in your hands!🦸📷</p>
+                                <a href="https://subodh-comic-page-generator.netlify.app/" class="link-custom" target="_blank">View
+                                    Live Site</a>&emsp;
+                                <a href="https://github.com/subodh-kasaudhan/Comic-page-generator"
+                                    class="link-custom" target="_blank">View Code (GitHub)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- View All Button -->
+                    <div class="col-md-12 text-center">
+                        <button id="viewAllButton" class="btn btn-primary btn-brand me-3 mb-2">View All</button>
+                    </div>
+                </div>
+                <!-- Custom Popup -->
+                <div id="popup" class="custom-popup">
+                    <div class="popup-content">
+                        <span class="close-button" id="closeButton">&times;</span>
+                        <div class="row gy-4">
+
+                            <div class="row gy-4">
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/IPW.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Image Processing Website</h4>
+                                <p>Say goodbye to bulky editing apps which take up your phone's space. Meet the Image Processing site—a compact powerhouse. Packed with multiple functionalities, it
+                                    can perform simple to complex adjustments and you can even do alpha-blending of two images and directly save to your system. 
+                                    It's like having a photo wizard in your browser, making image edits a breeze.🤩
+                                </p>
+                                <a href="https://subodh-kasaudhan.github.io/simple-image-processing-site/" class="link-custom" target="_blank">View
+                                    Live Site</a>&emsp;
+                                <a href="https://github.com/subodh-kasaudhan/simple-image-processing-site"
+                                    class="link-custom" target="_blank">View Code (GitHub)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/AIG.png" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <h4>AI Image Generator</h4>
+                                        <p>Imagine this: You wake up from a nice happy dream but those visuals just slip away! Frustrating, huh?
+                                            But wait! Picture this: an AI wizard that takes your words, your description of that dream world, and poof! turns it into real, vivid and visually stunning images. Yep, like a dream translator!
+                                            And here's the coolest part: You get to share your dreamscapes with this awesome community. So give your imagination a Take Off to cosmos!!!🚀✨
+                                            <!-- Ever woke up from a dream and barely recall the visuals. Here is an AI system that can help you by create realistic images and art from a description in natural language.
+                                            You can even share your creation with everyone in the community.  -->
+                                        </p>
+                                        <a href="hhttps://subodh-ai-image-generator.netlify.app/" class="link-custom" target="_blank">View
+                                            Live Site</a>&emsp;
+                                        <a href="https://github.com/subodh-kasaudhan/AI-Image-Generator"
+                                            class="link-custom" target="_blank">View Code (GitHub)</a>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/CSG.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Comic Page Generator</h4>
+                                <p>Ever wanted to create your own comic book but not good at drawing images? Make your own 10-strip comic pages from custom images in minutes.
+                                    Let your characters Speak your Story by caption features integrated with each image strip. It's like a comic book factory in your hands!🦸📷</p>
+                                <a href="https://subodh-comic-page-generator.netlify.app/" class="link-custom" target="_blank">View
+                                    Live Site</a>&emsp;
+                                <a href="https://github.com/subodh-kasaudhan/Comic-page-generator"
+                                    class="link-custom" target="_blank">View Code (GitHub)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                            <div class="col-md-4" data-aos="fade-up">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/KBA.png" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <h4>Kanban Board App</h4>
+                                        <p>A board that arranges tasks and groups them easily. It fetches data from an API and lets you play task Tetris. 
+                                            Group your digital sticky notes by name, status, or priority. Then, shuffle them within each group, alphabetically or by urgency - your call!
+                                            Even after a refresh, this wizardry remembers your setup - no starting over.</p>
+                                        <a href="https://subodh-kasaudhan-kanban-board-app.netlify.app/" class="link-custom"
+                                            target="_blank">View Live Site</a>&emsp;
+                                        <a href="https://github.com/subodh-kasaudhan/kanban-board-app"
+                                            class="link-custom" target="_blank">View Code (GitHub)</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4" data-aos="fade-up">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/cp.jpg" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <h4>Deep Dive Into Algorithms</h4>
+                                        <p>Offered by Association for Computing Activities, IITK </p>
+                                        <ul>
+                                            <li>
+                                                Deep-dived into advanced DSA concepts such as Dynamic programming, Graph, Linked List, Binary Tree using C++
+                                            </li>
+                                            <li>
+                                                Extensively implemented various algorithms and actively participated in timed contests prepared by mentors on Codeforces
+                                            </li>
+                                            <li>
+                                                Participated in the programming challenges of different levels on various platforms like CodeChef, Codeforces and AtCoder
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4" data-aos="fade-up">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/portfolio.png" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <h4>Portfolio</h4>
+                                        <p>Maybe you've seen it before. Maybe you've used it before. Wait! Aren't you on the same site? 😉
+                                        </p>
+                                        <a href="#" class="link-custom">View
+                                            Live Site</a>&emsp;
+                                        <a href="https://github.com/subodh-kasaudhan"
+                                            class="link-custom" target="_blank">View Code (GitHub)</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Source codes of all these projects
+                    [are/will be soon] available on my <span class="link-custom"><a
+                            href="https://github.com/subodh-kasaudhan" class="link-custom"
+                            target=”_blank”>GitHub!</a></span></p>
+            </div>
+        </section>
+        
+
+        <!-- ABOUT -->
+        <section id="about" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">ABOUT</h6>
+                        <h1>My Experience & Education</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-5" data-aos="fade-up">
+                    <div class="col-lg-12">
+                        <div class="btn-group" role="group">
+                            <button class="btn btn-secondary toggle-btn active"
+                                data-toggle="experience">Experience</button>
+                            <button class="btn btn-secondary toggle-btn" 
+                                data-toggle="education">Education</button>
+                            <button class="btn btn-secondary toggle-btn" 
+                                data-toggle="extra">Extra</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row gy-5 experience-section" data-aos="fade-up">
+                    <div class="col-lg-12">
+                        <div class="row row-cols-1 row-cols-md-2 gy-4">
+
+                            <div class="col-md-6">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Software Development Engineer Intern</h4>
+                                    <p class="text-brand mb-2">May 2023 - Jul 2023</p>
+                                    <p class="text-brand mb-2">LTIMindtree, Mumbai</p>
+                                    <p class="mb-0">☞ Proficiently built Java Spring Boot microservices, enabling efficient communication and load balancing via the Eureka server.</p>
+                                    <p class="mb-0">☞ Implemented fault tolerance measures like Hystrix and Multiple Instance for microservices, addressing slow loading and timeouts.</p>
+                                    <p class="mb-0">☞ Enhanced user accessibility through integration of multiple login methods within Tricentis qTest.</p>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="col-md-6">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>App Development Intern </h4>
+                                    <p class="text-brand mb-2">Jan 2022 - Mar 2022</p>
+                                    <p class="text-brand mb-2">Ekai Shop Technologies, Remote</p>
+                                    <p class="mb-0">☞ Engineered a cross-platform application using Flutter, enabling streamlined user onboarding process and brand profile management.</p>
+                                    <p class="mb-0">☞ This resulted in a 60% reduction in onboarding time forthe mobile application.</p>
+                                    <p class="mb-0">☞ Leveraged diverse widget choices, including app bar, chips, dividers, cards and bottom navigation bar from Material Design theme.</p>
+                                </div>
+                            </div>
+
+                            <!-- View All Button -->
+                            <div class="col-md-12 text-center">
+                                <button id="viewAllExperienceButton" class="btn btn-primary btn-brand me-3 mb-2">View All</button>
+                            </div>
+
+                            <div id="popupExp" class="custom-popup">
+                                <div class="popup-content">
+                                    <span class="close-button" id="closeExpButton">&times;</span>
+                                    <div class="row gy-4">
+
+                                        <div class="col-md-6">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Software Development Engineer Intern</h4>
+                                    <p class="text-brand mb-2">May 2023 - Jul 2023</p>
+                                    <p class="text-brand mb-2">LTIMindtree, Mumbai</p>
+                                    <p class="mb-0">☞ Proficiently built Java Spring Boot microservices, enabling efficient communication and load balancing via the Eureka server.</p>
+                                    <p class="mb-0">☞ Implemented fault tolerance measures like Hystrix and Multiple Instance for microservices, addressing slow loading and timeouts.</p>
+                                    <p class="mb-0">☞ Enhanced user accessibility through integration of multiple login methods within Tricentis qTest.</p>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="col-md-6">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>App Development Intern </h4>
+                                    <p class="text-brand mb-2">Jan 2022 - Mar 2022</p>
+                                    <p class="text-brand mb-2">Ekai Shop Technologies, Remote</p>
+                                    <p class="mb-0">☞ Engineered a cross-platform application using Flutter, enabling streamlined user onboarding process and brand profile management.</p>
+                                    <p class="mb-0">☞ This resulted in a 60% reduction in onboarding time forthe mobile application.</p>
+                                    <p class="mb-0">☞ Leveraged diverse widget choices, including app bar, chips, dividers, cards and bottom navigation bar from Material Design theme.</p>
+                                </div>
+                            </div>
+
+                                        <div class="col-md-6">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Research & Development Intern </h4>
+                                    <p class="text-brand mb-2">Jun 2022 - Aug 2022</p>
+                                    <p class="text-brand mb-2">Endure Air, Intelligent Guidance and Control Laboratory, IIT Kanpur</p>
+                                    <p class="mb-0">☞ Implemented Ground Control Station(GCS) for operating multi-drone systems as a key component of the Swarm Application.</p>
+                                    <p class="mb-0">☞ Proficiently initiated and tested various simulators such as Gazebo, RViz and Turtlesim within WSL2 operating Ubuntu 18.04.5.</p>
+                                    <p class="mb-0">☞ Automated key functionalities (Take Off, Landing, Mission Planner), resulting in 50% reduction in manual testing time.</p>
+                                </div>
+                            </div>
+            
+                                        <div class="col-md-6">
+                                            <div class="bg-base p-4 rounded-4 shadow-effect">
+                                                <h4>Open Source Contributor, GirlScript Winter of Contributing</h4>
+                                                <p class="text-brand mb-2">Sep 2021 - Dec 2021</p>
+                                                <p class="text-brand mb-2">GirlScript Foundation, Remote</p>
+                                                <p class="mb-0">☞ Collaborated with over 2,500 contributors in building documentation
+                                                for the world's largest multilingual contentrepository for DSA, ML and Development.</p>
+                                                <p class="mb-0">☞ Developed comprehensive tutorials and code documentation for the C, C++, and Competitive Programming domains on GitHub</p>            
+                                            </div>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row gy-5 education-section" data-aos="fade-up">
+                    <div class="col-lg-12">
+                        <div class="row row-cols-1 row-cols-md-2 gy-4">
+                            <div class="col-md-6">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>BTech, Materials Science and Engineering</h4>
+                                    <p class="text-brand mb-2">Indian Institute of Technology Kanpur (2020 - 2024)
+                                    </p>
+                                    <p class="mb-0">CPI: 7.1/10.0</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>JEE Coaching (Mains + Advanced)</h4>
+                                    <p class="text-brand mb-2">Allen Career Institute, Kota (2019 - 2020)</p>
+                                    <p class="mb-0">Secured Batch Rank 1 among 200+ students in TFX1 - B (Leader) Batch</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Higher Secondary Education - CISCE (I.S.C)</h4>
+                                    <p class="text-brand mb-2">St. Basil's School, Basti (2018 - 2019)</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Secondary Education - CISCE (I.C.S.E)</h4>
+                                    <p class="text-brand mb-2">St. Basil's School, Basti (2016 - 2017)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row gy-5 extra-section" data-aos="fade-up">
+                    <div class="col-lg-12">
+                        <div class="row row-cols-1 row-cols-md-2 gy-4">
+                            
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/ManagerOutreachCertificate.jpg" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        
+                                        <h4>Manager, Alumni Relations, Outreach Cell IIT Kanpur</h4>
+                                        <ul>
+                                            <li>Led a team of 24 Secretariesto work on strengthening Student-Alumni relations and organizing career guidance sessions for students</li>
+                                            <li>Coordinated with 60+ IITK alumni for Mock-en-Joy series, conducting mock interviews for 200+ students before internship drive</li>
+                                        </ul>
+                                        <a href="https://drive.google.com/file/d/1fnF2vbVGuYlz4ljLcmCjaf_tRodtWYTH/view?usp=sharing" class="link-custom" target="_blank">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/NomineeAnimalWelfareCertificate.jpg" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        
+                                        <h4>Student Nominee, Animal Welfare Cell IIT Kanpur</h4>
+                                        <ul>
+                                            <li>Represented the Gymkhana President in a committee working toward policymaking, focusing on the well-being of campus fauna</li>
+                                            <li>Worked in a team consisting of professors on initiatives such as sterilization and vaccination drives for stray animals, successfully covering 70+ dogs and cats</li>
+                                        </ul>
+                                        <a href="https://drive.google.com/file/d/1cBkzuStwWKhW8prmiiZ7Rc035idyktEF/view?usp=sharing" class="link-custom" target="_blank">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //ABOUT -->
+
+        <!-- BLOGS -->
+        
+        <!--//BLOGS-->
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">CERTIFICATIONS</h6>
+                        <h1>My Learnings.</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/LTIMCertificate.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">28 Jul, 2023</p>
+                                <h5 class="mb-4">LTIMindtree, Software Development Engineer Internship</h5>
+                                <a href="https://drive.google.com/file/d/1z2GdZ_1bhRB5v20p19BOD2JzA7giAnnZ/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/TOPCONTRIBUTORSGWOC.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">20 Dec, 2021</p>
+                                <h5 class="mb-4">GirlScript Foundation, Top 10 Open-Source Contributor for Competetive Programming</h5>
+                                <a href="https://drive.google.com/file/d/1iyOWc-VpboHqUzSlb6CgYGidtYfngX4Z/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4"
+                                    src="./assets/images/GoogleKickstartCertificate.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">14 Feb, 2022</p>
+                                <h5 class="mb-4">Google Kick Start 2021, Global Ranks 1012 (Round C) and 1059 (Round F)</h5>
+                                <a href="https://drive.google.com/file/d/1phUOPGTiwj4YBn6FkSYDIMkEf9wuohgY/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                            
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/GoldmanCertificate.jpg" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <p class="text-brand mb-2">01 Aug, 2021</p>
+                                        <h5 class="mb-4">Goldman Sachs Software Engineering Virtual Experience Program on Forage</h5>
+                                        <a href="https://drive.google.com/file/d/1bhA2IZC8wfBbbOGwcFoFO809pa9izS9h/view?usp=sharing"
+                                            class="link-custom" target=”_blank”>View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/AWSAccreditationTechnical.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">12 Jun, 2023</p>
+                                <h5 class="mb-4">AWS Partner: Accreditation (Technical)</h5>
+                                <a href="https://drive.google.com/file/d/1W4-WuJhPPQTzboHFzZuBrPpddg1J-fTd/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/PythonCourseraCertificate.png" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <p class="text-brand mb-2">29 Nov, 2021</p>
+                                        <h5 class="mb-4">Programming for Everybody (Python) By University of Michigan on Coursera</h5>
+                                        <a href="https://drive.google.com/file/d/11CKTzzN4vE22lWySCurF0EYrNOFrRUIC/view?usp=sharing"
+                                            class="link-custom" target=”_blank”>View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                    <!-- View All Button -->
+                    <div class="col-md-12 text-center">
+                        <button id="viewAllCertButton" class="btn btn-primary btn-brand me-3 mb-2">View All</button>
+                    </div>
+
+                </div>
+
+                <!-- Custom Popup -->
+                <div id="popupCert" class="custom-popup-certificate">
+                    <div class="popup-content-certificate">
+                        <span class="close-button-certificate" id="closeCertButton">&times;</span>
+                        <div class="row gy-4">
+
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/LTIMCertificate.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">28 Jul, 2023</p>
+                                <h5 class="mb-4">LTIMindtree, Software Development Engineer Internship</h5>
+                                <a href="https://drive.google.com/file/d/1z2GdZ_1bhRB5v20p19BOD2JzA7giAnnZ/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/TOPCONTRIBUTORSGWOC.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">20 Dec, 2021</p>
+                                <h5 class="mb-4">GirlScript Foundation, Top 10 Open-Source Contributor for Competetive Programming</h5>
+                                <a href="https://drive.google.com/file/d/1iyOWc-VpboHqUzSlb6CgYGidtYfngX4Z/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4"
+                                    src="./assets/images/GoogleKickstartCertificate.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">14 Feb, 2022</p>
+                                <h5 class="mb-4">Google Kick Start 2021, Global Ranks 1012 (Round C) and 1059 (Round F)</h5>
+                                <a href="https://drive.google.com/file/d/1phUOPGTiwj4YBn6FkSYDIMkEf9wuohgY/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                            
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/GoldmanCertificate.jpg" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <p class="text-brand mb-2">01 Aug, 2021</p>
+                                        <h5 class="mb-4">Goldman Sachs Software Engineering Virtual Experience Program on Forage</h5>
+                                        <a href="https://drive.google.com/file/d/1bhA2IZC8wfBbbOGwcFoFO809pa9izS9h/view?usp=sharing"
+                                            class="link-custom" target=”_blank”>View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/AWSAccreditationTechnical.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">12 Jun, 2023</p>
+                                <h5 class="mb-4">AWS Partner: Accreditation (Technical)</h5>
+                                <a href="https://drive.google.com/file/d/1W4-WuJhPPQTzboHFzZuBrPpddg1J-fTd/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/PythonCourseraCertificate.png" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <p class="text-brand mb-2">29 Nov, 2021</p>
+                                        <h5 class="mb-4">Programming for Everybody (Python) By University of Michigan on Coursera</h5>
+                                        <a href="https://drive.google.com/file/d/11CKTzzN4vE22lWySCurF0EYrNOFrRUIC/view?usp=sharing"
+                                            class="link-custom" target=”_blank”>View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4"
+                                            src="./assets/images/SAPForageCertificate.jpg" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <p class="text-brand mb-2">23 Dec, 2023</p>
+                                        <h5 class="mb-4">SAP USA Technical Consulting (Data Analyst) Job Simulation on Forage</h5>
+                                        <a href="https://drive.google.com/file/d/1-bLRda2IINTqOGCiAejmBwXgqBJN4jHT/view?usp=sharing"
+                                            class="link-custom" target=”_blank”>View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/AWSDataAnalytics.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">14 Jun, 2023</p>
+                                <h5 class="mb-4">AWS Partner: Data Analytics on AWS (Technical)</h5>
+                                <a href="https://drive.google.com/file/d/1uBtI9OT5qm_NwmTGQ6o2-PoLF8zAOBRv/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                            
+        
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4" src="./assets/images/GoogleCourseraCertificate.png" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <p class="text-brand mb-2">29 May, 2022</p>
+                                        <h5 class="mb-4">Foundations, Data, Data Everywhere By Google on Coursera</h5>
+                                        <a href="https://drive.google.com/file/d/1zzqpTkFDf54NcdQZuzowv9ioWLGTYVFZ/view?usp=sharing"
+                                            class="link-custom" target=”_blank”>View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                                <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/EkaiShopCertificate.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">22 May, 2022</p>
+                                <h5 class="mb-4">Ekai Shop Technologies, App Development Intern</h5>
+                                <a href="https://drive.google.com/file/d/1-mxfWFyHpUlDA1aanQEo2pRyLUKCZRsM/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card-custom rounded-4 bg-base shadow-effect">
+                                    <div class="card-custom-image rounded-4">
+                                        <img class="rounded-4"
+                                            src="./assets/images/GWOCParticipationCertificate.png" alt="">
+                                    </div>
+                                    <div class="card-custom-content p-4">
+                                        <p class="text-brand mb-2">20 Dec, 2021</p>
+                                        <h5 class="mb-4">GirlScript Foundation, Contributor at GirlScript Winter of Contributing</h5>
+                                        <a href="https://drive.google.com/file/d/1dypgxFPAayedhVfdtLWzZ8UNM22HIsIl/view?usp=sharing"
+                                            class="link-custom" target=”_blank”>View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4"
+                                    src="./assets/images/GenerativeAIGoogleCertificate.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">20 Aug, 2023</p>
+                                <h5 class="mb-4">Google Cloud, Introduction to Generative AI Studio</h5>
+                                <a href="https://drive.google.com/file/d/1xAhhDt9O9b9jrRCS8DOE1YqO3fUJJlB9/view?usp=sharing"
+                                    class="link-custom" target=”_blank”>View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--//CERTIFICATIONS-->
+
+        <!-- CONTACT -->
+        <!-- <section id="contact" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8 pb-4" data-aos="fade-up">
+                        <h6 class="text-brand">CONTACT</h6>
+                        <h1>Let's talk</h1>
+                    </div>
+
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+                        <form class="row g-lg-3 gy-3" onsubmit="Submit(event)">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="text" class="form-control" placeholder="Enter subject">
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="" rows="4" class="form-control"
+                                    placeholder="Enter your message"></textarea>
+                            </div>
+                            <div class="form-group col-12 d-grid">
+                                <button type="submit" class="btn btn-brand">Contact me</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJknq9G9icTn-Yr5xS2KiOGSghfVRgvg31uzQ9S5fI7qf2Pg/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+                </div>
+            </div>
+        </section> -->
+        <!-- //CONTACT -->
+
+        <!-- CONTACT -->
+        <section id="contact" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8 pb-4" data-aos="fade-up">
+                        <h6 class="text-brand">CONTACT</h6>
+                        <h1>Let's talk</h1>
+                    </div>
+
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+                        <div class="google-form-wrapper">
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGITul7AnNbnPaJeDEJaR4_MmIPKmVd0S_ZJbUOf1nt63mOw/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //CONTACT -->
+
+        <!-- FOOTER -->
+        <footer class="py-5 px-lg-5" id="footer">
+            <div class="container">
+                <div class="row gy-4 justify-content-between">
+                    
+                    <div class="col-auto">
+                        <h6 class="fw-bold">Total Views:</h6>
+                        <a href="https://www.freecounterstat.com" title="hit counter html"><img src="https://counter7.optistats.ovh/private/freecounterstat.php?c=2gtt7ssk9u78l7mu5au931mngajq2ylc" border="0" title="hit counter html" alt="hit counter html"></a>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">© <a href="#" class="fw-bold">SUBODH KUMAR KASAUDHAN 2023</a></p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/subodh-kasaudhan/" target=”_blank”><i
+                                    class="lab la-linkedin"></i></i></i></a>
+                            <a href="mailto: kasaudhan.subodh@gmail.com"><i class="las la-envelope"></i></i></a>
+                            <a href="https://github.com/subodh-kasaudhan" target=”_blank”><i class="lab la-github"></i></a>
+                            <a href="https://twitter.com/shivamiitk_" target=”_blank”><i class="lab la-twitter"></i></a>
+                            <a href="https://www.instagram.com/shivamiitk/" target=”_blank”><i
+                                    class="lab la-instagram"></i></a>
+                            <a href="https://www.facebook.com/shivmiitk/" target="_blank"><i class="lab la-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- //FOOTER -->
+
+    </div>
+    <!-- //CONTENT WRAPPER -->
+
+    <!-- Toast Container -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="success-toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"
+            style="background-color: #ffcc00; color: #000000;"> <!-- Inline styles for background and text color -->
+            <div class="toast-header"
+                style="background-color: #ffcc00; color: #000000; border-bottom: 1px solid #ffd700;">
+                <!-- Header styling -->
+                <strong class="me-auto">Success</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Your Message Received Successfully!
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
