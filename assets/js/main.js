@@ -45,6 +45,21 @@ toggleButtons.forEach((button) => {
   });
 });
 
+const themeToggleBtn = document.getElementById("themeToggle");
+var toggle = false;
+themeToggleBtn.addEventListener("click", function () {
+  var element = document.body;
+  element.classList.toggle("light-mode");
+  toggle = !toggle;
+  if (toggle) {
+    sunIcon.style.display = "none";
+    moonIcon.style.display = "inline-block";
+  } else {
+    sunIcon.style.display = "inline-block";
+    moonIcon.style.display = "none";
+  }
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const viewAllButton = document.getElementById("viewAllButton");
   const popup = document.getElementById("popup");
