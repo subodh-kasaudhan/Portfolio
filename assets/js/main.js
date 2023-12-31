@@ -14,6 +14,54 @@ AOS.init({
 
 // // Listen for a submit
 // document.querySelector(".contact-form").addEventListener("submit", submitForm);
+const strings = [
+  "Engineer",
+  "Competitive Programmer",
+  "Software Developer",
+  "Nature Lover",
+]; // Replace with your string array
+let index = 0;
+let text = "";
+let isDeleting = false;
+let typingSpeed = 200; // Adjust typing speed as needed
+
+function type() {
+  const dynamicText = document.getElementById("dynamicText");
+
+  if (index >= strings.length) {
+    index = 0;
+  }
+
+  const currentString = strings[index];
+
+  if (isDeleting) {
+    text = currentString.substring(0, text.length - 1);
+  } else {
+    text = currentString.substring(0, text.length + 1);
+  }
+
+  dynamicText.textContent = text;
+
+  let delta = typingSpeed;
+
+  if (isDeleting) {
+    delta /= 2;
+  }
+
+  if (!isDeleting && text === currentString) {
+    delta = 1000;
+    isDeleting = true;
+  } else if (isDeleting && text === "") {
+    isDeleting = false;
+    index++;
+  }
+
+  setTimeout(type, delta);
+}
+
+window.onload = function () {
+  type();
+};
 
 const educationSection = document.querySelector(".education-section");
 const experienceSection = document.querySelector(".experience-section");

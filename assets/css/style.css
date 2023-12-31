@@ -16,7 +16,7 @@
   --color-base2: #ffffff;
   --color-body: #1a1a1a;
   --color-heading: #000;
-  --color-navbar: rgba(238, 236, 236, 0.8);
+  --color-navbar: rgba(225, 224, 224, 0.8);
   /* background-color: var(--color-heading); */
   /* color: var(--color-base); */
 }
@@ -52,6 +52,26 @@ img {
 
 .text-brand {
   color: var(--color-brand);
+}
+
+.text-brand2 {
+  /* color: var(--color-brand); */
+}
+
+.text-brand2::after {
+  /* color: var(--color-brand); */
+  content: "|";
+  animation: blink-caret 0.75s infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--color-brand); /* Adjust color if needed */
+  }
 }
 
 .bg-base {
