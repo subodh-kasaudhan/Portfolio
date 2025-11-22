@@ -21,6 +21,17 @@
   /* color: var(--color-base); */
 }
 
+.google-form-wrapper {
+    background: #2f2f2f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.light-mode .google-form-wrapper {
+    background: var(--color-base);
+}
+
+
 body {
   background-color: var(--color-base2);
   color: var(--color-body);
